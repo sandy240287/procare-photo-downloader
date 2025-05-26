@@ -11,7 +11,7 @@ The script automates:
 
 ## Features
 
-* **Bulk Photo Download**: Initiates downloads for all loaded photos.
+* **Bulk Photo Download**: Initiates downloads for all loaded photos including any CORS error handling.
 * **Month Range Selection**: Specify a start and end month/year to download photos across multiple periods.
 * **Automated Calendar Navigation**: Attempts to programmatically select the target month(s) in the Procare calendar.
 * **Automated Scrolling**: Simulates scrolling to trigger the loading of all incrementally-loaded photos.
@@ -34,7 +34,7 @@ Many childcare centers use Procare to share photos with parents. However, downlo
 
 ### 1. Preparation
 
-1.  **Navigate to Procare**: Log in to your Procare account and go to the main "Photos/Videos" or gallery section where you can see your child's photos.
+1.  **Navigate to Procare**: Log in to your Procare account (https://schools.procareconnect.com/) and go to the main "Photos/Videos" or gallery section where you can see your child's photos.
 2.  **Open Developer Console**:
     * On Windows/Linux: Press `F12` or `Ctrl+Shift+I`.
     * On Mac: Press `Cmd+Option+I`.
